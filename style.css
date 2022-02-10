@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Source+Serif+4:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+
+.nome {
+    color: black;
+    opacity: 90%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 32px;
+    font-weight: 100px;
+}
+  
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    align-items: center;
+    justify-content:space-around;
+    padding: 30px;
+
+}
+
+
+.cabecalho-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    row-gap: 24px;
+
+}
+
+
+
+.options:hover{
+    color:black;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 8%;
+    box-shadow: 0 0 16px #F7ECDE;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    row-gap: 16px;
+    justify-content:space-around;
+    padding: 24px;
+    gap: 32px;
+    font-family: 'Source Serif 4', sans-serif;
+
+
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100px;
+}
+
+
+p, h3 {
+    font-family: 'Source Serif 4', sans-serif;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+.main {
+    border-top: 0.5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    row-gap: 10px;
+    justify-content:space-around;
+    padding: 50px;
+    margin-bottom: 14px;
+
+}
+.textos{
+    padding: 10px;
+}
+
+.produtos img {
+    height: 540px;
+   border-radius: 5%;
+    opacity: 70%;
+    background-size: cover;
+
+
+}
+
+
+.sec-textos{
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    padding: 20px 80px ;
+    margin: 40px;
+    column-gap: 80px;
+    justify-content:space-around;
+}
+
+.secundaria-titulo{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 32px;
+    
+
+}
+
+
+.conhecimento{ 
+    display: flex;
+    flex-direction: row ;
+    text-align: center;
+    padding: 55px 0 ;
+    margin: 12px;
+    column-gap: 30px;
+    justify-content:space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 18px;
+    position: center;
+}
+
+
+
+
+.ingredientes {
+    background-image: url("ingredientes.jpg");
+    background-image: -o-linear-gradient(); 
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    border-radius: 25%;
+}
+
+.tipo {
+    background-image: url("rosto.jpg"); 
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    border-radius: 25%;  
+}
+
+.best-seller{
+    background-image: url("cloud.jpg"); 
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    border-radius: 25%; 
+}
+
+.tipo:hover {
+    color:black;
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 25%;
+    box-shadow: 0 0 16px #F7ECDE;
+    opacity: 80%;
+
+
+}
+
+
+.ingredientes:hover{
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 25%;
+    box-shadow: 0 0 16px #F7ECDE;
+    opacity: 80%;
+}
+
+
+.best-seller:hover{
+    color:black;
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 25%;
+    box-shadow: 0 0 16px #F7ECDE;
+    opacity: 80%;
+
+}
+
+
+.fotter{
+    background-color:#F7ECDE;
+    padding: 64px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 52px;
+    align-items: center;
+    justify-content:space-around;
+
+}
+
+
+.logo {
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 16px #C1A3A3;
+
+        
+}
+
+  
+.redes-sociais a img {
+    height: 72px;
+    border-radius: 50%;
+
+}
+
+
+
