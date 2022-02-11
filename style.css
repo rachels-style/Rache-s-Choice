@@ -1,6 +1,9 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Source+Serif+4:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
 
 * {
     margin: 0;
@@ -100,8 +103,6 @@ p, h3 {
    border-radius: 5%;
     opacity: 70%;
     background-size: cover;
-
-
 }
 
 
@@ -120,8 +121,6 @@ p, h3 {
     justify-content: center;
     padding-bottom: 20px;
     font-size: 32px;
-    
-
 }
 
 
@@ -137,9 +136,8 @@ p, h3 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 18px;
     position: center;
+    
 }
-
-
 
 
 .ingredientes {
@@ -149,6 +147,8 @@ p, h3 {
     background-size: cover;
     padding: 100px;
     border-radius: 25%;
+    color: black;
+    width: 200;
 }
 
 .tipo {
@@ -234,5 +234,62 @@ p, h3 {
 
 }
 
+@media (max-width: 800px) {
+    .conhecimento {
+      grid-template-columns: 1fr;
+      align-items: center;
+    }
+  }
+
+ @media (max-width: 800px) {
+      .cabecalho {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+        justify-content:space-around;
+        padding: 15px;}
+    
+    }
+ @media (max-width: 800px) {
+        .main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            row-gap: 5px;
+            justify-content:space-around;
+            padding: 5px;
+            margin-bottom: 5px;
+
+        }
+    }
+
+@media (max-width: 800px) {
+    .prudutos img {
+     height: 5px;
+     border-radius: 5%;
+     opacity: 45%;
+    background-size: cover;
+
+        }
+    }
 
 
+    @media (max-width: 800px) {
+        .sec-textos{
+            font-size: small;
+            padding: 10px ;
+            margin: 5px;
+            column-gap: 15px;
+
+        }
+    }
+
+    @media (max-width: 800px) {
+        body {
+            text-align: center;
+            align-items: center;
+        }
+    }
