@@ -35,12 +35,10 @@
 }
 
 
-.cabecalho-option{
+.menu{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     row-gap: 24px;
-
 }
 
 
@@ -215,7 +213,6 @@ p, h3 {
     row-gap: 52px;
     align-items: center;
     justify-content:space-around;
-
 }
 
 
@@ -228,7 +225,7 @@ p, h3 {
 }
 
   
-.redes-sociais a img {
+.redes-sociais img {
     height: 72px;
     border-radius: 50%;
 
@@ -293,3 +290,28 @@ p, h3 {
             align-items: center;
         }
     }
+
+    @media (max-width: 800px) {
+        .menu { 
+            row-gap: 10px;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .fotter{ 
+            background-color:#F7ECDE;
+            padding: 20px;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            font-size: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            row-gap: 52px;
+            align-items: center;
+            justify-content:space-around;
+        }
+    }
+
+   
