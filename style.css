@@ -99,10 +99,10 @@ p, h3 {
     padding: 10px;
 }
 
-.produtos img {
-    height: 540px;
-   border-radius: 5%;
-    opacity: 70%;
+.produtos {
+    height: 500px;
+   border-radius: 4%;
+    opacity: 85%;
     background-size: cover;
 }
 
@@ -126,8 +126,6 @@ p, h3 {
 
 
 .conhecimento{ 
-    display: flex;
-    flex-direction: row ;
     text-align: center;
     padding: 55px 0 ;
     margin: 12px;
@@ -258,6 +256,16 @@ p, h3 {
     }
     
     }
+    @media (max-width: 800px) {
+        .textos {
+            background-image: url("b.jpg");
+            padding: 52px;
+            border-radius: 5%;
+            opacity: 90%;
+        }
+    }
+
+
 
  @media (max-width: 800px) {
         .main {
@@ -278,10 +286,9 @@ p, h3 {
     @media (max-width: 800px) {
         .produtos {
          height: 0px;
-         opacity: 0%;
-    
-            }
-        }
+         opacity: 0;
+     }
+     }
            
 
 
